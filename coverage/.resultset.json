@@ -1,7 +1,18 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Project/Private_Practice/battling_again/spec/features/infrastructure_test_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1583684807
+    "timestamp": 1583685779
   }
 }
