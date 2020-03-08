@@ -41,8 +41,33 @@
           null,
           null
         ]
+      },
+      "/Users/student/Project/Private_Practice/battling_again/spec/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Project/Private_Practice/battling_again/lib/player.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1583688901
+    "timestamp": 1583689779
   }
 }
