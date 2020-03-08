@@ -1,6 +1,19 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Project/Private_Practice/battling_again/spec/features/enter_names_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/student/Project/Private_Practice/battling_again/spec/features/infrastructure_test_spec.rb": {
         "lines": [
           1,
@@ -13,6 +26,6 @@
         ]
       }
     },
-    "timestamp": 1583685779
+    "timestamp": 1583686696
   }
 }
