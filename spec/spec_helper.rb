@@ -8,6 +8,7 @@ ENV['RACK_ENV'] = 'test'
       require 'simplecov'
       require 'simplecov-console'
       require 'sinatra'
+      require './spec/web_helpers'
 
 Capybara.app = Battling_again
 

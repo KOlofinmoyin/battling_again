@@ -7,6 +7,13 @@
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Project/Private_Practice/battling_again/spec/features/hit_points_spec.rb": {
+        "lines": [
+          1,
           1,
           1,
           1,
@@ -26,6 +33,6 @@
         ]
       }
     },
-    "timestamp": 1583687301
+    "timestamp": 1583688163
   }
 }

@@ -3,5 +3,4 @@ feature 'Infrastructure Test' do
     visit('/')
     expect(page).to have_content('Prepare to do battle!')
   end
-
 end
