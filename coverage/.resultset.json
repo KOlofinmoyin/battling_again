@@ -49,19 +49,32 @@
           null
         ]
       },
-      "/Users/student/Project/Private_Practice/battling_again/spec/player_spec.rb": {
+      "/Users/student/Project/Private_Practice/battling_again/spec/game_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          5,
+          2,
+          1,
           2,
           null,
           1,
           1,
           1,
+          1,
           null,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Project/Private_Practice/battling_again/spec/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          4,
+          1,
           null,
           1,
           1,
@@ -69,7 +82,6 @@
           null,
           null,
           null,
-          1,
           1,
           1,
           1,
@@ -85,6 +97,6 @@
         ]
       }
     },
-    "timestamp": 1583691485
+    "timestamp": 1583759823
   }
 }
