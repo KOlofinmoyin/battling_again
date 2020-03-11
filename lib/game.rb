@@ -20,7 +20,6 @@ class Game
 
   def switch_turn
     @current_turn = opponent_of(@current_turn)
-    p @current_turn
   end
 
   def opponent_of(player)

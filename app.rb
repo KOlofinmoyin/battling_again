@@ -24,6 +24,8 @@ class Battling_again < Sinatra::Base
 
   get '/attack' do
     @game = $game
+    @player = @game.current_turn
+    @opponent = @game.opponent_of(@player)
     @game.attack(@game.player_2)
     @game.switch_turn
     erb :attack
