@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Battle homepage</title>
-  </head>
-  <body>
-    <h1>Prepare to do battle!</h1>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>Battle homepage</title>
+</head>
+<body>
+  <div class="content">
+    <div class="heading">
+      <h1>Prepare to do battle!</h1>
+    </div>
 
-    <form action="/names" method="post">
-      <label for="player_1">
-        Player 1:
-        <input type="text" name="player_1">
-        <label for="player_2">
-          Player 2:
-          <input type="text" name="player_2">
-        </label>
-        <input type="submit" value="Submit">
-      </label>
-    </form>
-  </body>
+    <div class="form-container">
+      <form action="/names" method="post">
+
+        <div class="player_1_row">
+          <label for="player_1">
+            Player 1:
+          </label>
+            <input type="text" name="player_1">
+        </div>
+        <div class="player_2_row">
+          <label for="player_2">
+            Player 2:
+          </label>
+            <input type="text" name="player_2">
+        </div>
+          <input class="submit-button" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
 </html>
