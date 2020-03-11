@@ -6,6 +6,7 @@
   </head>
   <body>
     <h1><%= @player.name %> attacked <%=@opponent.name%> </h1>
+    <h2><%= @game.player_1.name %>: <%= @game.player_1.hit_points%>HP </h2>
     <h2><%= @game.player_2.name %>: <%= @game.player_2.hit_points%>HP </h2>
     <a href="/play">Ok</a>
   </body>

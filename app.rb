@@ -26,7 +26,7 @@ class Battling_again < Sinatra::Base
     @game = $game
     @player = @game.current_turn
     @opponent = @game.opponent_of(@player)
-    @game.attack(@game.player_2)
+    @game.attack(@opponent)
     @game.switch_turn
     erb :attack
   end
