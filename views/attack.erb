@@ -8,6 +8,7 @@
     <h1><%= @player.name %> attacked <%=@opponent.name%> </h1>
     <h2><%= @game.player_1.name %>: <%= @game.player_1.hit_points%>HP </h2>
     <h2><%= @game.player_2.name %>: <%= @game.player_2.hit_points%>HP </h2>
+    <% if @game.player_2.hit_points == 0 %> <h2><%= @game.player_2.name %> loses!</h2> <% end %>
     <a href="/play">Ok</a>
   </body>
 </html>

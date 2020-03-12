@@ -91,6 +91,38 @@
           null
         ]
       },
+      "/Users/student/Project/Private_Practice/battling_again/spec/features/lose_game_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/student/Project/Private_Practice/battling_again/spec/game_spec.rb": {
         "lines": [
           1,
@@ -158,6 +190,6 @@
         ]
       }
     },
-    "timestamp": 1583960068
+    "timestamp": 1584009658
   }
 }
