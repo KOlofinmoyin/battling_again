@@ -1,6 +1,7 @@
 require 'sinatra/base'
-require_relative 'lib/game'
-require_relative 'lib/player'
+require './lib/game'
+require './lib/player'
+require './lib/attack'
 
 
 class Battling_again < Sinatra::Base
@@ -26,7 +27,7 @@ class Battling_again < Sinatra::Base
     @game = $game
     @player = @game.current_turn
     @opponent = @game.opponent_of(@player)
-    @game.attack(@opponent)
+    Attack.run(@opponent)
     @game.switch_turn
     erb :attack
   end

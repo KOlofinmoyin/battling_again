@@ -1,6 +1,22 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Project/Private_Practice/battling_again/spec/attack_spec.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/student/Project/Private_Practice/battling_again/spec/features/attack_spec.rb": {
         "lines": [
           1,
@@ -50,6 +66,25 @@
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Project/Private_Practice/battling_again/spec/features/game_over_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -109,15 +144,11 @@
           1,
           null,
           1,
-          5,
-          5,
-          5,
-          null,
+          4,
           1,
+          4,
+          4,
           1,
-          1,
-          1,
-          null,
           null,
           1,
           1,
@@ -138,6 +169,10 @@
           null,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -171,6 +206,6 @@
         ]
       }
     },
-    "timestamp": 1584012061
+    "timestamp": 1584043409
   }
 }

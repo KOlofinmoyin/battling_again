@@ -2,14 +2,10 @@ require 'game'
 
 describe Game do
   subject(:game) { described_class.new(player_1, player_2) }
-  let(:player_1) { double :player_1 }
-  let(:player_2) { double :player_2 }
-
-  describe '#attack' do
-    it 'damages the player' do
-      expect(game.player_2).to receive(:receive_damage)
-      game.attack(game.player_2)
-    end
+  subject(:finished_game) { described_class.new(dead_player, player_2) }
+  let(:player_1) { double :player_1, hit_points: 60 }
+  let(:player_2) { double :player_2, hit_points: 60 }
+  let(:dead_player) { double :player, hit_points: 0 }
 
     describe '#player_1' do
       it 'retrieves the first player' do
@@ -31,4 +27,8 @@ describe Game do
     end
   end
 
-end
+  describe '#game_over?' do
+    it "returns false if no one is at 0HP" do
+      expect(game.game_over?).to eq false
+    end
+  end
