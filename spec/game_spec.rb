@@ -31,4 +31,14 @@ describe Game do
     it "returns false if no one is at 0HP" do
       expect(game.game_over?).to eq false
     end
+
+    it 'returns true if at least one player is at 0HP' do
+      expect(finished_game.game_over?).to be true
+    end
+  end
+
+  describe '#loser' do
+    it 'returns a player on less than 0HP' do
+      expect(finished_game.loser).to eq dead_player
+    end
   end
