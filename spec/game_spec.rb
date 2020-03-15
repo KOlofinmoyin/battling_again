@@ -19,13 +19,20 @@ describe Game do
       end
     end
 
+    describe '#opponent_of' do
+      it "find the opponent of a player" do
+        expect(game.opponent_of(player_1)).to eq player_2
+        expect(game.opponent_of(player_2)).to eq player_1
+      end
+    end
+
     describe '#switch_turn' do
       it "switches player turns" do
         game.switch_turn
         expect(game.current_turn).to eq player_2
       end
     end
-  end
+
 
   describe '#game_over?' do
     it "returns false if no one is at 0HP" do
@@ -42,3 +49,4 @@ describe Game do
       expect(finished_game.loser).to eq dead_player
     end
   end
+end

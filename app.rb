@@ -34,8 +34,12 @@ class Battling_again < Sinatra::Base
 
   get '/attack' do
     @game = $game
-    # @game.switch_turn
     erb :attack
+  end
+
+  post '/switch-turn' do
+    $game.switch_turn
+    redirect('/play')
   end
 
   get '/game-over' do
