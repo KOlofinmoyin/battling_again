@@ -8,7 +8,6 @@ feature 'Game over' do
 
     scenario 'Player 1 loses' do
       click_button 'Attack'
-      save_and_open_page
       expect(page).to have_content 'Mittens loses!'
     end
   end
