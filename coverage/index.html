@@ -14,7 +14,7 @@
       <img src="./assets/0.12.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-03-15T12:36:04+00:00">2020-03-15T12:36:04+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-03-16T21:50:54+00:00">2020-03-16T21:50:54+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.33
+         1.39
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>132</b> relevant lines,
-    <span class="green"><b>132</b> lines covered</span> and
+    <b>131</b> relevant lines,
+    <span class="green"><b>131</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -106,20 +106,20 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#dcedfc28eb17e1f605ffcdb89f516e43b62f6722" class="src_link" title="spec/features/game_over_spec.rb">spec/features/game_over_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">14</td>
-            <td class="cell--number">9</td>
-            <td class="cell--number">9</td>
+            <td class="cell--number">15</td>
+            <td class="cell--number">10</td>
+            <td class="cell--number">10</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.22</td>
+            <td class="cell--number">2.00</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#b0cea670f0fb575fc5850c02fbf04123d15e3b15" class="src_link" title="spec/features/hit_points_spec.rb">spec/features/hit_points_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">27</td>
-            <td class="cell--number">19</td>
-            <td class="cell--number">19</td>
+            <td class="cell--number">26</td>
+            <td class="cell--number">18</td>
+            <td class="cell--number">18</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -139,11 +139,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#ae25788a2aef49bc3ce11bfe96858af10dd9563c" class="src_link" title="spec/features/lose_game_spec.rb">spec/features/lose_game_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">2.25</td>
+            <td class="cell--number">2.43</td>
             
           </tr>
         
@@ -1030,8 +1030,8 @@
     
 
     <div class="t-line-summary">
-      <b>9</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>10</b> relevant lines.
+      <span class="green"><b>10</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1087,13 +1087,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="5">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="11" data-linenumber="5">
+            <span class="hits">11</span>
             
 
             
 
-            <code class="ruby">      2.times { attack_and_confirm }</code>
+            <code class="ruby">      10.times {attack_and_confirm}</code>
           </li>
         </div>
       
@@ -1137,7 +1137,7 @@
 
             
 
-            <code class="ruby">    scenario &#39;player 1 loses&#39; do</code>
+            <code class="ruby">    scenario &#39;Player 1 loses&#39; do</code>
           </li>
         </div>
       
@@ -1148,7 +1148,7 @@
 
             
 
-            <code class="ruby">      click_on &#39;Attack&#39;</code>
+            <code class="ruby">      click_button &#39;Attack&#39;</code>
           </li>
         </div>
       
@@ -1159,18 +1159,18 @@
 
             
 
-            <code class="ruby">      expect(page).to have_content &#39;Dave loses!&#39;</code>
+            <code class="ruby">      save_and_open_page</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      expect(page).to have_content &#39;Mittens loses!&#39;</code>
           </li>
         </div>
       
@@ -1181,12 +1181,23 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -1215,8 +1226,8 @@
     
 
     <div class="t-line-summary">
-      <b>19</b> relevant lines.
-      <span class="green"><b>19</b> lines covered</span> and
+      <b>18</b> relevant lines.
+      <span class="green"><b>18</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1476,7 +1487,7 @@
 
             
 
-            <code class="ruby">    save_and_open_page</code>
+            <code class="ruby">    expect(page).not_to have_content(&#39;Dave: 60HP&#39;)</code>
           </li>
         </div>
       
@@ -1487,23 +1498,12 @@
 
             
 
-            <code class="ruby">    expect(page).not_to have_content(&#39;Dave: 60HP&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="25">
-            <span class="hits">1</span>
-            
-
-            
-
             <code class="ruby">    expect(page).to have_content(&#39;Dave: 50HP&#39;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
+          <li class="never" data-hits="" data-linenumber="25">
             
             
 
@@ -1514,7 +1514,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="27">
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
@@ -1640,8 +1640,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1725,23 +1725,12 @@
 
             
 
-            <code class="ruby">    save_and_open_page</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
-            
-
-            
-
             <code class="ruby">    expect(page).to have_content &#39;Mittens loses!&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -1752,7 +1741,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 

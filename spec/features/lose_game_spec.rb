@@ -4,7 +4,6 @@ feature 'Lose' do
     sign_in_and_play
     exchange_attacks.times { attack_and_confirm }
     click_on 'Attack'
-    save_and_open_page
     expect(page).to have_content 'Mittens loses!'
   end
 end
