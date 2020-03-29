@@ -25,6 +25,16 @@ class Game
   def loser
     losing_players.first
   end
+
+  class << self
+    def create(player_1, player_2)
+      @game = Game.new(player_1, player_2)
+    end
+
+    def instance
+      @game
+    end
+  end
   # # private
   # attr_reader :players
 
